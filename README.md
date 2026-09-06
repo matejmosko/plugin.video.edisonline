@@ -2,6 +2,15 @@
 
 Kodi 22 (Piers) video addon for Edisonline streaming with Widevine DRM support.
 
+## Disclaimer
+This project is an **unofficial, community addon** and is **not affiliated with, endorsed by, or sponsored by Edisonline** (or its parent companies). All product names, logos, and brands are property of their respective owners.
+
+The addon interacts with publicly available web endpoints of the service for the purpose of personal, private use. Use it **at your own risk**:
+
+- Streaming content or circumventing technical protection measures may violate the service's Terms of Service or applicable law in your jurisdiction.
+- The project is provided **"as is"**, without warranty of any kind. The author is not liable for any damages, account suspensions, or other consequences arising from its use.
+- Widevine DRM and playback integration is provided solely to allow playback of content you are legally entitled to watch.
+
 ## Features
 - Browse movies by category and recommendations
 - Search the Edisonline VOD catalog
