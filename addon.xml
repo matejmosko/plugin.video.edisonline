@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.edisonline" name="Edisonline" version="1.0.0" provider-name="Edisonline">
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    
+    <!-- Required for streaming and DRM (HTTP is handled via Python stdlib, no requests addon needed) -->
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="inputstream.adaptive" version="22.0.0"/>
+    </requires>
+    
+    <!-- Addon metadata -->
+    <extension point="xbmc.addon.metadata">
+        <summary lang="sk_SK">Streamovací služba Edisonline</summary>
+        <description lang="sk_SK">Plne funkčný video doplnok pre streamovanie obsahu z Edisonline so spportom Widevine DRM</description>
+        <summary lang="cs_CZ">Streamovací služba Edisonline</summary>
+        <description lang="cs_CZ">Plně funkční video plugin pro streamování obsahu z Edisonline s podporou Widevine DRM</description>
+        <language>en sk cs</language>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <source>https://github.com/yourusername/plugin.video.edisonline</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        <news>v1.0.0 - Prvá verzia s DRM podporou</news>
+    </extension>
+</addon>

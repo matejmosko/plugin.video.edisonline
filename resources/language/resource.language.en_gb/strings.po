@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.edisonline\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: settings.xml
+msgctxt "#32000"
+msgid "Account"
+msgstr "Account"
+
+#: settings.xml
+msgctxt "#32001"
+msgid "Playback"
+msgstr "Playback"
+
+#: settings.xml
+msgctxt "#32002"
+msgid "Advanced"
+msgstr "Advanced"
+
+#: settings.xml
+msgctxt "#32003"
+msgid "Metadata"
+msgstr "Metadata"
+
+#: settings.xml
+msgctxt "#32011"
+msgid "Clear metadata cache"
+msgstr "Clear metadata cache"
+
+#: router.py
+msgctxt "#32100"
+msgid "Email"
+msgstr "Email"
+
+#: router.py
+msgctxt "#32101"
+msgid "Password"
+msgstr "Password"
+
+#: router.py
+msgctxt "#32200"
+msgid "Movies"
+msgstr "Movies"
+
+#: router.py
+msgctxt "#32201"
+msgid "Home / Recommendations"
+msgstr "Home / Recommendations"
+
+#: router.py
+msgctxt "#32202"
+msgid "Genres"
+msgstr "Genres"
+
+#: router.py
+msgctxt "#32203"
+msgid "Search"
+msgstr "Search"
+
+#: router.py
+msgctxt "#32204"
+msgid "All Movies (no metadata)"
+msgstr "All Movies (no metadata)"
+
+#: router.py drm.py
+msgctxt "#32300"
+msgid "Authentication Failed"
+msgstr "Authentication Failed"
+
+#: router.py drm.py
+msgctxt "#32301"
+msgid "Invalid Email or Password"
+msgstr "Invalid Email or Password"
+
+#: router.py drm.py
+msgctxt "#32302"
+msgid "Network Error"
+msgstr "Network Error"
+
+#: drm.py
+msgctxt "#32303"
+msgid "License Error"
+msgstr "License Error"
+
+#: drm.py
+msgctxt "#32304"
+msgid "Not Available"
+msgstr "Not Available"
+
+#: router.py drm.py
+msgctxt "#32305"
+msgid "Loading..."
+msgstr "Loading..."
+
+#: drm.py
+msgctxt "#32306"
+msgid "Purchase Required"
+msgstr "Purchase Required"
+
+#: drm.py
+msgctxt "#32307"
+msgid "This movie is not part of your subscription. You have to buy it to watch it."
+msgstr "This movie is not part of your subscription. You have to buy it to watch it."

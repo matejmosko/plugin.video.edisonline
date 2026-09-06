@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <category label="32000">
+        <setting id="email" type="text" label="Email" default="" />
+        <setting id="password" type="text" label="Password" default="" option="hidden" />
+        <setting id="remember_credentials" type="bool" label="Remember credentials" default="true" />
+    </category>
+    <category label="32001">
+        <setting id="max_bitrate" type="number" label="Max bitrate (kbps, 0=auto)" default="0" />
+    </category>
+    <category label="32003">
+        <setting id="clear_metadata_cache" type="action" label="32011" action="RunPlugin(plugin://plugin.video.edisonline/?action=clear_cache)" />
+    </category>
+    <category label="32002">
+        <setting id="debug_logging" type="bool" label="Debug logging" default="false" />
+        <setting id="timeout" type="number" label="Request timeout (seconds)" default="30" />
+        <setting id="session_cookie_json" type="text" label="Session cookies (internal)" default="" visible="false" />
+    </category>
+</settings>
