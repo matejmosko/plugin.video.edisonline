@@ -62,7 +62,3 @@ plugin.video.edisonline/
 ## Security
 - Credentials are never hardcoded in source. Authenticated cookies (`PHPSESSID`, `device_id`, `device_auth`) are captured at login and stored in the addon's profile directory only.
 - Debug logging never prints tokens, passwords, or session cookies.
-
-## Debugging
-- Logs: `~/.var/app/tv.kodi.Kodi/data/temp/kodi.log` (flatpak) or `~/.kodi/temp/kodi.log`.
-- Addon data: `~/.var/app/tv.kodi.Kodi/data/userdata/addon_data/plugin.video.edisonline/`.
